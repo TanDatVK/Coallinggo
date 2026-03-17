@@ -2,7 +2,7 @@
 
 import { useState, useEffect, Suspense } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
+import Image from '@/components/CustomImage'
 import { useSearchParams, useRouter } from 'next/navigation'
 import {
     ArrowLeft,

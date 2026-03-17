@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
+import Image from '@/components/CustomImage'
 import dynamic from 'next/dynamic'
 import { User, LucideIcon, Check, ChevronRight } from 'lucide-react'
 import { usePathname, useRouter } from 'next/navigation'

@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import dynamic from 'next/dynamic'
 import { ChevronRight, X, ChevronLeft, Sparkles, Heart } from 'lucide-react'
+import Image from '@/components/CustomImage'
 
 const LottieMascot = dynamic(() => import('@/components/LottieMascot'), {
     ssr: false,
@@ -230,7 +231,7 @@ export default function GuideMascot() {
                     <div className="bg-gradient-to-r from-primary-blue to-accent-blue px-5 py-4 flex items-center justify-between">
                         <div className="flex items-center gap-3">
                             <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center">
-                                <img src={step.icon} alt={step.title} className="w-7 h-7" />
+                                <Image src={step.icon} alt={step.title} width={28} height={28} />
                             </div>
                             <div>
                                 <h3 className="text-lg font-bold text-white">{step.title}</h3>

@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useRef } from 'react'
-import Image from 'next/image'
+import Image from '@/components/CustomImage'
 import { X, Upload, Check, Lock, Camera } from 'lucide-react'
 import { mockAvatarCollection, Avatar } from '@/data/mockData'
 import dynamic from 'next/dynamic'

@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import Image from 'next/image'
+import Image from '@/components/CustomImage'
 import dynamic from 'next/dynamic'
 import { useState, useEffect } from 'react'
 import { ChevronLeft, ChevronRight, Zap, Users, Trophy, BookOpen } from 'lucide-react'

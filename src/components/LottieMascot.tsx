@@ -3,6 +3,8 @@
 import Lottie, { LottieRefCurrentProps } from 'lottie-react'
 import { useState, useEffect, useRef, memo, useCallback } from 'react'
 
+const basePath = process.env.NODE_ENV === 'production' ? '/Coalingo' : ''
+
 interface LottieMascotProps {
     className?: string
     size?: number
@@ -65,7 +67,7 @@ function LottieMascotComponent({
                 return
             }
 
-            fetch(`/animations/${animationFile}`)
+            fetch(`${basePath}/animations/${animationFile}`)
                 .then(response => response.json())
                 .then(data => {
                     animationCache.set(animationFile, data)

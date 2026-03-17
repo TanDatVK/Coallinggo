@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import Header from '@/components/Header'
 import Sidebar from '@/components/Sidebar'
-import Image from 'next/image'
+import Image from '@/components/CustomImage'
 import {
     mockUser,
     mockLanguages,

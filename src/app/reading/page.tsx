@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { Map, List, Sparkles, ArrowLeft, BookOpen, Search, Plus, Clock, MoreVertical, Wand2, Zap, Brain, Code2, Loader2, ChevronRight, X, Check, Cpu, Terminal, Database, Globe } from 'lucide-react'
 import Link from 'next/link'
-import Image from 'next/image'
+import Image from '@/components/CustomImage'
 import dynamic from 'next/dynamic'
 import { mockAICourses, AIGeneratedCourse, AISection, AIModule } from '@/data/mockData'
 import CourseOutline from '@/components/CourseOutline'

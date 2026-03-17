@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
+import Image from '@/components/CustomImage'
 import { ChevronLeft, ChevronRight, Check, User } from 'lucide-react'
 
 // Tech items for floating animation
