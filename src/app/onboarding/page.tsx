@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from '@/components/CustomImage'
+import Logo from '@/components/Logo'
 import { ChevronLeft, ChevronRight, Check, User } from 'lucide-react'
 
 // Tech items for floating animation
@@ -304,8 +305,8 @@ export default function OnboardingPage() {
                 <div className="container max-w-4xl mx-auto px-4">
                     <div className="flex items-center justify-between h-16">
                         <Link href="/" className="flex items-center gap-2">
-                            <Image src="/images/logo.png" alt="CoerLingo" width={36} height={36} className="rounded-xl" />
-                            <span className="text-xl font-black text-[#1e3a5f]">Coallingo</span>
+                            <Logo className="w-9 h-9" />
+                            <span className="text-xl font-black text-[#58cc02]">coallingo</span>
                         </Link>
                         <div className="flex-1 max-w-xs mx-8">
                             <div className="h-3 bg-gray-200 rounded-full overflow-hidden">

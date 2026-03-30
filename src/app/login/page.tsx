@@ -151,7 +151,7 @@ export default function LoginPage() {
                             <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-accent-blue to-duo-purple flex items-center justify-center shadow-lg shadow-accent-blue/30">
                                 <Code2 className="text-white" size={28} />
                             </div>
-                            <span className="text-2xl font-black text-white">Coallingo</span>
+                            <span className="text-2xl font-black text-[#58cc02]">coallingo</span>
                         </Link>
                     </div>
 

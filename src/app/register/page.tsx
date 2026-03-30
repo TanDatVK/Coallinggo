@@ -89,7 +89,7 @@ export default function RegisterPage() {
                             <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-duo-green to-accent-cyan flex items-center justify-center shadow-lg shadow-duo-green/30">
                                 <Rocket className="text-white" size={28} />
                             </div>
-                            <span className="text-2xl font-black text-white">Coallingo</span>
+                            <span className="text-2xl font-black text-[#58cc02]">coallingo</span>
                         </Link>
                     </div>
 

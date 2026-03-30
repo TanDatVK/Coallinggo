@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import Image from '@/components/CustomImage'
 import dynamic from 'next/dynamic'
+import Logo from '@/components/Logo'
 import { Crown, Menu, X, BookOpen, Trophy, User, Settings, LogIn } from 'lucide-react'
 import { useState, useEffect } from 'react'
 import { mockUser } from '@/data/mockData'
@@ -32,15 +33,9 @@ export default function Header() {
                 <div className="flex items-center justify-between h-16">
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-2">
-                        <Image
-                            src="/images/logo.png"
-                            alt="Coallingo Logo"
-                            width={36}
-                            height={36}
-                            className="rounded-xl"
-                        />
-                        <span className="hidden sm:block text-xl font-black text-[#1e3a5f] tracking-tight">
-                            Coallingo
+                        <Logo className="w-9 h-9" />
+                        <span className="hidden sm:block text-xl font-black text-[#58cc02] tracking-tight">
+                            coallingo
                         </span>
                     </Link>
 

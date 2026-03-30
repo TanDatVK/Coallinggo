@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import Image from '@/components/CustomImage'
+import Logo from '@/components/Logo'
 import dynamic from 'next/dynamic'
 import { useState, useEffect } from 'react'
 import { ChevronLeft, ChevronRight, Zap, Users, Trophy, BookOpen } from 'lucide-react'
@@ -208,8 +209,8 @@ export default function Home() {
                     <div className="container max-w-6xl mx-auto px-4">
                         <div className="flex items-center justify-between h-16">
                             <Link href="/" className="flex items-center gap-2">
-                                <Image src="/images/logo.png" alt="CoerLingo" width={40} height={40} className="rounded-xl" />
-                                <span className="text-2xl font-black text-[#1e3a5f]">Coallingo</span>
+                                <Logo className="w-10 h-10" />
+                                <span className="text-2xl font-black text-[#58cc02]">coallingo</span>
                             </Link>
 
                             <div className="flex items-center gap-3">
@@ -309,7 +310,7 @@ export default function Home() {
                 <section className="py-20 bg-white/40">
                     <div className="container max-w-6xl mx-auto px-4">
                         <h2 className="text-3xl sm:text-4xl font-black text-center text-gray-900 mb-12">
-                            Tại sao chọn <span className="text-[#1e3a5f]">Coallingo</span>?
+                            Tại sao chọn <span className="text-[#58cc02]">coallingo</span>?
                         </h2>
                         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                             {[
@@ -339,7 +340,7 @@ export default function Home() {
                                     miễn phí. vui.<br /><span className="text-[#58cc02]">hiệu quả.</span>
                                 </h2>
                                 <p className="text-lg text-gray-600 leading-relaxed">
-                                    Học lập trình với Coallingo thật vui, và <span className="text-[#1e3a5f] font-bold">nghiên cứu chứng minh hiệu quả</span>!
+                                    Học lập trình với <span className="text-[#58cc02] font-bold">coallingo</span> thật vui, và <span className="text-[#1e3a5f] font-bold">nghiên cứu chứng minh hiệu quả</span>!
                                     Với các bài học ngắn gọn, bạn sẽ kiếm điểm và mở khóa cấp độ mới.
                                 </p>
                             </div>
@@ -463,8 +464,8 @@ export default function Home() {
                         </div>
                         <div className="pt-8 border-t border-white/20 flex flex-col md:flex-row items-center justify-between gap-4">
                             <div className="flex items-center gap-2">
-                                <Image src="/images/logo.png" alt="CoerLingo" width={32} height={32} className="rounded-lg brightness-0 invert" />
-                                <span className="text-lg font-black">Coallingo</span>
+                                <Logo className="w-8 h-8" color="#ffffff" />
+                                <span className="text-lg font-black">coallingo</span>
                             </div>
                             <div className="flex items-center gap-4">
                                 <a href="#" className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center">📘</a>
