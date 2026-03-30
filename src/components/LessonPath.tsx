@@ -428,7 +428,7 @@ function LessonModal({ lesson, onClose }: LessonModalProps) {
     if (!lesson) return null
 
     const handleStart = () => {
-        const basePath = process.env.NODE_ENV === 'production' ? '/Coallinggo' : ''
+        const basePath = process.env.NODE_ENV === 'production' ? '/Coalingo' : ''
         window.location.href = `${basePath}/lesson/${lesson.id}`
     }
 
