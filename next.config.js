@@ -2,7 +2,7 @@
 const nextConfig = {
     reactStrictMode: true,
     output: 'export',
-    basePath: '/Coalingo',
+    basePath: '/coallingo',
     images: {
         unoptimized: true,
     },
