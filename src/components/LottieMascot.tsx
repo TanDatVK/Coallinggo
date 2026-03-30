@@ -3,7 +3,7 @@
 import Lottie, { LottieRefCurrentProps } from 'lottie-react'
 import { useState, useEffect, useRef, memo, useCallback } from 'react'
 
-const basePath = process.env.NODE_ENV === 'production' ? '/coallingo' : ''
+const basePath = process.env.NODE_ENV === 'production' ? '/Coalingo' : ''
 
 interface LottieMascotProps {
     className?: string
